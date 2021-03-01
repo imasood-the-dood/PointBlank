@@ -827,6 +827,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.01-16.52.26:224][348]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0025 seconds. Added 20 classes and 0 folders.
 [2021.03.01-16.52.26:287][348]PIE: Server logged in
 [2021.03.01-16.52.26:650][348]PIE: Play in editor total start time 3.389 seconds.
+<<<<<<< Updated upstream
 [2021.03.01-16.52.33:369][531]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/StarterContent/Audio/Explosion_Cue.Explosion_Cue was zero and has changed. Consider manually Re-saving the asset
 [2021.03.01-16.52.44:492][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2021.03.01-16.52.44:492][879]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
@@ -2082,3 +2083,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.01-17.23.45:362][612]LogD3D11RHI: [IntelMetricsDiscovery] Stopped
 [2021.03.01-17.23.45:392][612]LogExit: Exiting.
 [2021.03.01-17.23.45:435][612]Log file closed, 03/01/21 12:23:45
+=======
+>>>>>>> Stashed changes
