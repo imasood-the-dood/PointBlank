@@ -1428,3 +1428,509 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.24-17.28.02:675][891]LogAudioMixer: Resetting audio stream to device id 
 [2021.03.24-17.28.02:784][891]LogAudioMixer: Display: 0: FrontLeft
 [2021.03.24-17.28.02:784][891]LogAudioMixer: Display: 1: FrontRight
+[2021.03.24-17.47.41:748][771]LogTemp: Repeating last play command: Simulate
+[2021.03.24-17.47.41:798][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.24-17.47.41:802][771]PIE: New page: SIE session: levelbuilding (Mar 24, 2021, 9:47:41 AM)
+[2021.03.24-17.47.41:807][771]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.24-17.47.41:894][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086375s)
+[2021.03.24-17.47.41:915][771]LogAIModule: Creating AISystem for world levelbuilding
+[2021.03.24-17.47.41:919][771]LogPlayLevel: PIE: World Init took: (0.024241s)
+[2021.03.24-17.47.41:920][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding to /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding (0.113982s)
+[2021.03.24-17.47.41:954][771]LogUObjectHash: Compacting FUObjectHashTables data took   5.47ms
+[2021.03.24-17.47.41:969][771]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.03.24-17.47.41:972][771]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.24-17.47.41:972][771]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.24-17.47.41:972][771]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.24-17.47.41:972][771]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.24-17.47.41:972][771]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.24-17.47.41:972][771]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.24-17.47.41:972][771]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.24-17.47.41:972][771]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.24-17.47.41:974][771]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.24-17.47.41:975][771]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.24-17.47.42:028][771]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.24-17.47.42:028][771]LogAudioMixer: Display: 1: FrontRight
+[2021.03.24-17.47.42:056][771]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio(SST))
+[2021.03.24-17.47.42:060][771]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.24-17.47.42:060][771]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.24-17.47.42:060][771]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.24-17.47.42:070][771]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.24-17.47.42:070][771]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.24-17.47.42:070][771]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.24-17.47.42:088][771]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.24-17.47.42:088][771]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.24-17.47.42:088][771]LogInit: FAudioDevice initialized.
+[2021.03.24-17.47.42:089][771]LogAudio: Display: Audio Device (ID: 6) registered with world 'levelbuilding'.
+[2021.03.24-17.47.42:146][771]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.03.24-17.47.42:198][771]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding up for play (max tick rate 0) at 2021.03.24-13.47.42
+[2021.03.24-17.47.42:214][771]LogWorld: Bringing up level for play took: 0.058629
+[2021.03.24-17.47.42:224][771]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.03.24-17.47.42:241][771]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.24-17.47.42:273][771]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.24-17.47.42:277][771]PIE: Server logged in
+[2021.03.24-17.47.42:280][771]PIE: Play in editor total start time 0.492 seconds.
+[2021.03.24-17.48.23:043][433]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x411)
+[2021.03.24-17.48.55:445][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-17.48.55:445][901]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.24-17.48.55:447][901]LogWorld: UWorld::CleanupWorld for levelbuilding, bSessionEnded=true, bCleanupResources=true
+[2021.03.24-17.48.55:449][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.24-17.48.55:463][901]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.24-17.48.55:485][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.24-17.48.55:492][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-17.48.55:497][901]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.24-17.48.55:498][901]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.24-17.48.55:537][901]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2021.03.24-17.48.55:604][902]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.03.24-17.49.01:490][187]LogTemp: Repeating last play command: Simulate
+[2021.03.24-17.49.01:520][187]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.24-17.49.01:520][187]PIE: New page: SIE session: levelbuilding (Mar 24, 2021, 9:49:01 AM)
+[2021.03.24-17.49.01:520][187]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.24-17.49.01:538][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017202s)
+[2021.03.24-17.49.01:539][187]LogAIModule: Creating AISystem for world levelbuilding
+[2021.03.24-17.49.01:539][187]LogPlayLevel: PIE: World Init took: (0.001274s)
+[2021.03.24-17.49.01:539][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding to /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding (0.018745s)
+[2021.03.24-17.49.01:547][187]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.03.24-17.49.01:548][187]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.03.24-17.49.01:548][187]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.24-17.49.01:548][187]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.24-17.49.01:548][187]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.24-17.49.01:548][187]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.24-17.49.01:548][187]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.24-17.49.01:548][187]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.24-17.49.01:548][187]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.24-17.49.01:548][187]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.24-17.49.01:549][187]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.24-17.49.01:549][187]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.24-17.49.01:552][187]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.24-17.49.01:552][187]LogAudioMixer: Display: 1: FrontRight
+[2021.03.24-17.49.01:573][187]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio(SST))
+[2021.03.24-17.49.01:574][187]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.24-17.49.01:574][187]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.24-17.49.01:574][187]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.24-17.49.01:575][187]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.24-17.49.01:575][187]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.24-17.49.01:575][187]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.24-17.49.01:593][187]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.24-17.49.01:593][187]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.24-17.49.01:593][187]LogInit: FAudioDevice initialized.
+[2021.03.24-17.49.01:593][187]LogAudio: Display: Audio Device (ID: 7) registered with world 'levelbuilding'.
+[2021.03.24-17.49.01:605][187]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.03.24-17.49.01:613][187]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding up for play (max tick rate 0) at 2021.03.24-13.49.01
+[2021.03.24-17.49.01:615][187]LogWorld: Bringing up level for play took: 0.009894
+[2021.03.24-17.49.01:616][187]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.03.24-17.49.01:618][187]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.24-17.49.01:619][187]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.24-17.49.01:619][187]PIE: Server logged in
+[2021.03.24-17.49.01:620][187]PIE: Play in editor total start time 0.105 seconds.
+[2021.03.24-17.49.14:241][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-17.49.14:241][700]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.24-17.49.14:242][700]LogWorld: UWorld::CleanupWorld for levelbuilding, bSessionEnded=true, bCleanupResources=true
+[2021.03.24-17.49.14:245][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.24-17.49.14:257][700]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.24-17.49.14:289][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.24-17.49.14:303][700]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.24-17.49.14:303][700]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.24-17.49.14:305][700]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.24-17.49.14:344][700]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-17.49.14:348][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.03.24-17.49.14:423][701]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.03.24-17.53.57:535][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.24-17.53.57:535][ 26]PIE: New page: PIE session: levelbuilding (Mar 24, 2021, 9:53:57 AM)
+[2021.03.24-17.53.57:535][ 26]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.24-17.53.57:552][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016671s)
+[2021.03.24-17.53.57:553][ 26]LogAIModule: Creating AISystem for world levelbuilding
+[2021.03.24-17.53.57:554][ 26]LogPlayLevel: PIE: World Init took: (0.001640s)
+[2021.03.24-17.53.57:554][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding to /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding (0.018527s)
+[2021.03.24-17.53.57:570][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.03.24-17.53.57:573][ 26]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.03.24-17.53.57:573][ 26]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.24-17.53.57:573][ 26]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.24-17.53.57:573][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.24-17.53.57:573][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.24-17.53.57:573][ 26]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.24-17.53.57:573][ 26]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.24-17.53.57:573][ 26]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.24-17.53.57:573][ 26]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.24-17.53.57:574][ 26]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.24-17.53.57:574][ 26]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.24-17.53.57:577][ 26]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.24-17.53.57:577][ 26]LogAudioMixer: Display: 1: FrontRight
+[2021.03.24-17.53.57:602][ 26]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio(SST))
+[2021.03.24-17.53.57:602][ 26]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.24-17.53.57:602][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.24-17.53.57:602][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.24-17.53.57:603][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.24-17.53.57:603][ 26]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.24-17.53.57:603][ 26]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.24-17.53.57:605][ 26]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.24-17.53.57:605][ 26]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.24-17.53.57:605][ 26]LogInit: FAudioDevice initialized.
+[2021.03.24-17.53.57:605][ 26]LogAudio: Display: Audio Device (ID: 8) registered with world 'levelbuilding'.
+[2021.03.24-17.53.57:629][ 26]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.03.24-17.53.57:638][ 26]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding up for play (max tick rate 0) at 2021.03.24-13.53.57
+[2021.03.24-17.53.57:639][ 26]LogWorld: Bringing up level for play took: 0.008073
+[2021.03.24-17.53.57:640][ 26]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.03.24-17.53.57:642][ 26]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.24-17.53.57:644][ 26]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.24-17.53.57:645][ 26]PIE: Server logged in
+[2021.03.24-17.53.57:646][ 26]PIE: Play in editor total start time 0.117 seconds.
+[2021.03.24-17.54.12:829][507]PIE: Warning: EnemyProjectile_C_0.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.54.12:915][510]LogBlueprintUserMessages: [levelbuilding_C_0] Oh Snap! He got out!
+[2021.03.24-17.54.12:946][511]PIE: Warning: EnemyProjectile_C_1.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.54.13:010][513]PIE: Warning: EnemyProjectile_C_2.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.54.14:328][553]PIE: Warning: EnemyProjectile_C_3.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.54.14:451][557]PIE: Warning: EnemyProjectile_C_4.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.54.14:514][559]PIE: Warning: EnemyProjectile_C_5.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.54.15:867][603]PIE: Warning: EnemyProjectile_C_6.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.54.15:991][607]PIE: Warning: EnemyProjectile_C_7.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.54.16:049][609]PIE: Warning: EnemyProjectile_C_8.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.54.18:116][677]PIE: Warning: EnemyProjectile_C_9.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.54.18:182][679]PIE: Warning: EnemyProjectile_C_10.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.54.19:684][727]PIE: Warning: EnemyProjectile_C_11.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.54.21:242][775]PIE: Warning: EnemyProjectile_C_12.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.57.07:320][933]PIE: Warning: EnemyProjectile_C_13.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.57.07:322][933]PIE: Warning: EnemyProjectile_C_14.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.57.21:142][283]PIE: Warning: EnemyProjectile_C_15.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.57.22:585][319]PIE: Warning: EnemyProjectile_C_16.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.57.22:662][321]PIE: Warning: EnemyProjectile_C_17.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.57.22:664][321]PIE: Warning: EnemyProjectile_C_18.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-17.57.57:573][184]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-17.57.57:574][184]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.24-17.57.57:575][184]LogWorld: UWorld::CleanupWorld for levelbuilding, bSessionEnded=true, bCleanupResources=true
+[2021.03.24-17.57.57:580][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.24-17.57.57:626][184]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.24-17.57.57:681][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.24-17.57.57:702][184]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.24-17.57.57:703][184]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.24-17.57.57:705][184]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.24-17.57.57:776][184]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-17.57.57:787][184]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.03.24-17.57.58:529][185]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.03.24-17.58.00:346][234]LogSlate: Window 'Message Log' being destroyed
+[2021.03.24-17.58.00:436][234]LogSlate: Window 'Message Log' being destroyed
+[2021.03.24-17.58.02:998][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_Brush_StaticMesh)
+[2021.03.24-17.58.51:460][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.03.24-17.58.53:136][319]LogSavePackage: Moving '../../../../PointBlank/Saved/levelbuilding_Auto4E653B55147405CC611AB0B8E9ACF0B9C.tmp' to '../../../../PointBlank/Saved/Autosaves/Game/FirstPersonBP/Maps/levelbuilding_Auto4.umap'
+[2021.03.24-17.58.53:163][319]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonBP/Maps/levelbuilding' took 1.733
+[2021.03.24-17.58.53:163][319]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.733
+[2021.03.24-18.00.08:214][820]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.24-18.00.08:813][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.24-18.00.08:813][820]PIE: New page: PIE session: levelbuilding (Mar 24, 2021, 10:00:08 AM)
+[2021.03.24-18.00.08:814][820]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.24-18.00.08:852][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037627s)
+[2021.03.24-18.00.08:854][820]LogAIModule: Creating AISystem for world levelbuilding
+[2021.03.24-18.00.08:854][820]LogPlayLevel: PIE: World Init took: (0.002221s)
+[2021.03.24-18.00.08:854][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding to /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding (0.040278s)
+[2021.03.24-18.00.08:865][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2021.03.24-18.00.08:867][820]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.03.24-18.00.08:867][820]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.24-18.00.08:867][820]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.24-18.00.08:867][820]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.24-18.00.08:867][820]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.24-18.00.08:867][820]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.24-18.00.08:867][820]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.24-18.00.08:867][820]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.24-18.00.08:867][820]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.24-18.00.08:867][820]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.24-18.00.08:867][820]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.24-18.00.08:871][820]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.24-18.00.08:871][820]LogAudioMixer: Display: 1: FrontRight
+[2021.03.24-18.00.08:896][820]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio(SST))
+[2021.03.24-18.00.08:897][820]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.24-18.00.08:897][820]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.24-18.00.08:897][820]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.24-18.00.08:897][820]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.24-18.00.08:897][820]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.24-18.00.08:897][820]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.24-18.00.08:918][820]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.24-18.00.08:918][820]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.24-18.00.08:919][820]LogInit: FAudioDevice initialized.
+[2021.03.24-18.00.08:919][820]LogAudio: Display: Audio Device (ID: 9) registered with world 'levelbuilding'.
+[2021.03.24-18.00.08:930][820]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.03.24-18.00.08:938][820]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding up for play (max tick rate 0) at 2021.03.24-14.00.08
+[2021.03.24-18.00.08:940][820]LogWorld: Bringing up level for play took: 0.008017
+[2021.03.24-18.00.08:940][820]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.03.24-18.00.08:942][820]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.24-18.00.08:943][820]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.24-18.00.08:944][820]PIE: Server logged in
+[2021.03.24-18.00.08:945][820]PIE: Play in editor total start time 0.148 seconds.
+[2021.03.24-18.00.15:749][ 26]PIE: Warning: EnemyProjectile_C_0.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.15:814][ 28]LogBlueprintUserMessages: [levelbuilding_C_0] Oh Snap! He got out!
+[2021.03.24-18.00.15:883][ 30]PIE: Warning: EnemyProjectile_C_1.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.16:008][ 34]PIE: Warning: EnemyProjectile_C_2.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.17:315][ 70]PIE: Warning: EnemyProjectile_C_3.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.17:396][ 72]PIE: Warning: EnemyProjectile_C_4.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.18:861][118]PIE: Warning: EnemyProjectile_C_5.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.18:921][120]PIE: Warning: EnemyProjectile_C_6.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.20:396][168]PIE: Warning: EnemyProjectile_C_7.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.20:455][170]PIE: Warning: EnemyProjectile_C_8.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.21:942][220]PIE: Warning: EnemyProjectile_C_9.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.21:999][222]PIE: Warning: EnemyProjectile_C_10.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.23:501][272]PIE: Warning: EnemyProjectile_C_11.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.25:036][320]PIE: Warning: EnemyProjectile_C_12.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.26:261][360]PIE: Warning: EnemyProjectile_C_13.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.26:593][370]PIE: Warning: EnemyProjectile_C_14.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.27:865][406]PIE: Warning: EnemyProjectile_C_15.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.28:103][412]PIE: Warning: EnemyProjectile_C_16.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.29:411][450]PIE: Warning: EnemyProjectile_C_17.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.00.29:604][456]PIE: Warning: EnemyProjectile_C_18.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.01.00:573][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-18.01.00:573][367]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.24-18.01.00:574][367]LogWorld: UWorld::CleanupWorld for levelbuilding, bSessionEnded=true, bCleanupResources=true
+[2021.03.24-18.01.00:579][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.24-18.01.00:602][367]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.24-18.01.00:643][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.24-18.01.00:656][367]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.24-18.01.00:656][367]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.24-18.01.00:658][367]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.24-18.01.00:698][367]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-18.01.00:705][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2021.03.24-18.01.00:936][368]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.03.24-18.01.02:570][429]LogSlate: Window 'Message Log' being destroyed
+[2021.03.24-18.01.02:635][429]LogSlate: Window 'Message Log' being destroyed
+[2021.03.24-18.01.06:090][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_Brush_StaticMesh)
+[2021.03.24-18.01.15:108][ 26]LogSlate: Window 'Message Log' being destroyed
+[2021.03.24-18.01.15:156][ 26]LogSlate: Window 'Message Log' being destroyed
+[2021.03.24-18.05.56:886][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2021.03.24-18.06.00:380][209]LogSlate: Window 'Save Content' being destroyed
+[2021.03.24-18.06.00:434][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/levelbuilding" FILE="../../../../PointBlank/Content/FirstPersonBP/Maps/levelbuilding.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.24-18.06.00:444][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2021.03.24-18.06.02:022][209]LogSavePackage: Moving '../../../../PointBlank/Saved/levelbuilding435BC34641D3F16442877385756A2712.tmp' to '../../../../PointBlank/Content/FirstPersonBP/Maps/levelbuilding.umap'
+[2021.03.24-18.06.02:065][209]LogFileHelpers: Saving map 'levelbuilding' took 1.632
+[2021.03.24-18.06.02:070][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/levelbuilding_BuiltData" FILE="../../../../PointBlank/Content/FirstPersonBP/Maps/levelbuilding_BuiltData.uasset" SILENT=true
+[2021.03.24-18.06.02:521][209]LogSavePackage: Moving '../../../../PointBlank/Saved/levelbuilding_BuiltData7D70B0F343A0A367080967ACADEABA21.tmp' to '../../../../PointBlank/Content/FirstPersonBP/Maps/levelbuilding_BuiltData.uasset'
+[2021.03.24-18.06.02:531][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Linear_Stair_Brush_StaticMesh" FILE="../../../../PointBlank/Content/Linear_Stair_Brush_StaticMesh.uasset" SILENT=true
+[2021.03.24-18.06.02:595][209]LogSavePackage: Moving '../../../../PointBlank/Saved/Linear_Stair_Brush_StaticMesh2F5A03274AB0F9488A5D7BBDDC77A220.tmp' to '../../../../PointBlank/Content/Linear_Stair_Brush_StaticMesh.uasset'
+[2021.03.24-18.06.02:651][209]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.24-18.06.02:652][209]LogContentValidation: Display: Validating StaticMesh /Game/Linear_Stair_Brush_StaticMesh.Linear_Stair_Brush_StaticMesh
+[2021.03.24-18.06.02:652][209]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/levelbuilding_BuiltData.levelbuilding_BuiltData
+[2021.03.24-18.06.02:652][209]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding
+[2021.03.24-18.06.13:365][530]LogActorFactory: Actor Factory created Floor_400x400
+[2021.03.24-18.06.19:933][718]LogActorFactory: Actor Factory created Floor_400x400
+[2021.03.24-18.07.02:566][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_Brush_StaticMesh2)
+[2021.03.24-18.07.04:152][988]Cmd: DELETE
+[2021.03.24-18.07.04:152][988]Cmd: ACTOR DELETE
+[2021.03.24-18.07.04:162][988]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.03.24-18.07.04:162][988]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.03.24-18.07.04:174][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.03.24-18.07.04:177][988]LogEditorActor: Deleted 2 Actors (0.022 secs)
+[2021.03.24-18.07.07:819][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_Brush_StaticMesh)
+[2021.03.24-18.07.11:444][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x405)
+[2021.03.24-18.07.22:759][902]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.24-18.07.22:782][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.24-18.07.22:782][902]PIE: New page: PIE session: levelbuilding (Mar 24, 2021, 10:07:22 AM)
+[2021.03.24-18.07.22:782][902]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.24-18.07.22:797][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014592s)
+[2021.03.24-18.07.22:798][902]LogAIModule: Creating AISystem for world levelbuilding
+[2021.03.24-18.07.22:799][902]LogPlayLevel: PIE: World Init took: (0.001907s)
+[2021.03.24-18.07.22:799][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding to /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding (0.016796s)
+[2021.03.24-18.07.22:807][902]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2021.03.24-18.07.22:808][902]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.03.24-18.07.22:808][902]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.24-18.07.22:808][902]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.24-18.07.22:808][902]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.24-18.07.22:808][902]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.24-18.07.22:808][902]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.24-18.07.22:808][902]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.24-18.07.22:808][902]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.24-18.07.22:808][902]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.24-18.07.22:809][902]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.24-18.07.22:809][902]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.24-18.07.22:812][902]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.24-18.07.22:812][902]LogAudioMixer: Display: 1: FrontRight
+[2021.03.24-18.07.22:837][902]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio(SST))
+[2021.03.24-18.07.22:837][902]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.24-18.07.22:837][902]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.24-18.07.22:837][902]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.24-18.07.22:838][902]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.24-18.07.22:838][902]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.24-18.07.22:838][902]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.24-18.07.22:857][902]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.24-18.07.22:857][902]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.24-18.07.22:857][902]LogInit: FAudioDevice initialized.
+[2021.03.24-18.07.22:857][902]LogAudio: Display: Audio Device (ID: 10) registered with world 'levelbuilding'.
+[2021.03.24-18.07.22:867][902]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.03.24-18.07.22:875][902]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding up for play (max tick rate 0) at 2021.03.24-14.07.22
+[2021.03.24-18.07.22:876][902]LogWorld: Bringing up level for play took: 0.007608
+[2021.03.24-18.07.22:876][902]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.03.24-18.07.22:879][902]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.24-18.07.22:880][902]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.24-18.07.22:880][902]PIE: Server logged in
+[2021.03.24-18.07.22:881][902]PIE: Play in editor total start time 0.105 seconds.
+[2021.03.24-18.07.34:487][204]PIE: Warning: EnemyProjectile_C_0.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.07.34:598][207]LogBlueprintUserMessages: [levelbuilding_C_0] Oh Snap! He got out!
+[2021.03.24-18.07.34:640][208]PIE: Warning: EnemyProjectile_C_1.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.07.34:794][212]PIE: Warning: EnemyProjectile_C_2.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.07.36:141][246]PIE: Warning: EnemyProjectile_C_3.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.07.36:218][248]PIE: Warning: EnemyProjectile_C_4.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.07.36:294][250]PIE: Warning: EnemyProjectile_C_5.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.07.37:741][288]PIE: Warning: EnemyProjectile_C_6.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.07.37:744][288]PIE: Warning: EnemyProjectile_C_7.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.07.37:813][290]PIE: Warning: EnemyProjectile_C_8.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.07.39:292][330]PIE: Warning: EnemyProjectile_C_9.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.07.39:367][332]PIE: Warning: EnemyProjectile_C_10.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.07.40:904][372]PIE: Warning: EnemyProjectile_C_11.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.07.43:240][422]PIE: Warning: EnemyProjectile_C_12.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.07.58:702][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-18.07.58:702][794]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.24-18.07.58:704][794]LogWorld: UWorld::CleanupWorld for levelbuilding, bSessionEnded=true, bCleanupResources=true
+[2021.03.24-18.07.58:709][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.24-18.07.58:764][794]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.24-18.07.58:824][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.24-18.07.58:842][794]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.24-18.07.58:843][794]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.24-18.07.58:845][794]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.24-18.07.58:906][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-18.07.58:917][794]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2021.03.24-18.07.59:138][795]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.03.24-18.08.01:588][860]LogSlate: Window 'Message Log' being destroyed
+[2021.03.24-18.08.01:622][860]LogSlate: Window 'Message Log' being destroyed
+[2021.03.24-18.09.04:349][417]Cmd: SELECT NONE
+[2021.03.24-18.09.05:041][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x418)
+[2021.03.24-18.09.12:020][763]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.24-18.09.12:043][763]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.24-18.09.12:043][763]PIE: New page: PIE session: levelbuilding (Mar 24, 2021, 10:09:12 AM)
+[2021.03.24-18.09.12:043][763]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.24-18.09.12:059][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016322s)
+[2021.03.24-18.09.12:060][763]LogAIModule: Creating AISystem for world levelbuilding
+[2021.03.24-18.09.12:061][763]LogPlayLevel: PIE: World Init took: (0.001441s)
+[2021.03.24-18.09.12:061][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding to /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding (0.017947s)
+[2021.03.24-18.09.12:069][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.03.24-18.09.12:077][763]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2021.03.24-18.09.12:077][763]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.24-18.09.12:077][763]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.24-18.09.12:077][763]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.24-18.09.12:077][763]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.24-18.09.12:077][763]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.24-18.09.12:078][763]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.24-18.09.12:078][763]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.24-18.09.12:078][763]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.24-18.09.12:078][763]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.24-18.09.12:078][763]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.24-18.09.12:081][763]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.24-18.09.12:081][763]LogAudioMixer: Display: 1: FrontRight
+[2021.03.24-18.09.12:105][763]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio(SST))
+[2021.03.24-18.09.12:106][763]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.24-18.09.12:106][763]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.24-18.09.12:106][763]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.24-18.09.12:106][763]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.24-18.09.12:106][763]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.24-18.09.12:106][763]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.24-18.09.12:126][763]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.24-18.09.12:126][763]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.24-18.09.12:126][763]LogInit: FAudioDevice initialized.
+[2021.03.24-18.09.12:126][763]LogAudio: Display: Audio Device (ID: 11) registered with world 'levelbuilding'.
+[2021.03.24-18.09.12:141][763]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.03.24-18.09.12:152][763]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding up for play (max tick rate 0) at 2021.03.24-14.09.12
+[2021.03.24-18.09.12:153][763]LogWorld: Bringing up level for play took: 0.010920
+[2021.03.24-18.09.12:154][763]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.03.24-18.09.12:156][763]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.24-18.09.12:157][763]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.24-18.09.12:157][763]PIE: Server logged in
+[2021.03.24-18.09.12:158][763]PIE: Play in editor total start time 0.12 seconds.
+[2021.03.24-18.09.21:288][ 50]PIE: Warning: EnemyProjectile_C_0.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.09.21:446][ 55]LogBlueprintUserMessages: [levelbuilding_C_0] Oh Snap! He got out!
+[2021.03.24-18.09.21:542][ 58]PIE: Warning: EnemyProjectile_C_1.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.09.21:607][ 60]PIE: Warning: EnemyProjectile_C_2.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.09.23:089][106]PIE: Warning: EnemyProjectile_C_3.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.09.23:150][108]PIE: Warning: EnemyProjectile_C_4.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.09.24:605][156]PIE: Warning: EnemyProjectile_C_5.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.09.24:664][158]PIE: Warning: EnemyProjectile_C_6.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.09.26:175][208]PIE: Warning: EnemyProjectile_C_7.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.09.58:393][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-18.09.58:393][163]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.24-18.09.58:394][163]LogWorld: UWorld::CleanupWorld for levelbuilding, bSessionEnded=true, bCleanupResources=true
+[2021.03.24-18.09.58:397][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.24-18.09.58:444][163]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.24-18.09.58:497][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.24-18.09.58:513][163]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.24-18.09.58:513][163]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.24-18.09.58:515][163]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.24-18.09.58:570][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-18.09.58:576][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.03.24-18.09.58:788][164]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.03.24-18.10.00:122][200]LogSlate: Window 'Message Log' being destroyed
+[2021.03.24-18.10.00:179][200]LogSlate: Window 'Message Log' being destroyed
+[2021.03.24-18.10.08:674][485]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x411)
+[2021.03.24-18.10.29:016][197]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x414)
+[2021.03.24-18.10.45:076][828]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.24-18.10.45:100][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.24-18.10.45:100][828]PIE: New page: PIE session: levelbuilding (Mar 24, 2021, 10:10:45 AM)
+[2021.03.24-18.10.45:100][828]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.24-18.10.45:115][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014883s)
+[2021.03.24-18.10.45:116][828]LogAIModule: Creating AISystem for world levelbuilding
+[2021.03.24-18.10.45:117][828]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2021.03.24-18.10.45:117][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding to /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding (0.016374s)
+[2021.03.24-18.10.45:124][828]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2021.03.24-18.10.45:126][828]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2021.03.24-18.10.45:126][828]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.24-18.10.45:126][828]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.24-18.10.45:126][828]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.24-18.10.45:126][828]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.24-18.10.45:126][828]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.24-18.10.45:126][828]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.24-18.10.45:126][828]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.24-18.10.45:126][828]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.24-18.10.45:127][828]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.24-18.10.45:127][828]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.24-18.10.45:129][828]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.24-18.10.45:129][828]LogAudioMixer: Display: 1: FrontRight
+[2021.03.24-18.10.45:154][828]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio(SST))
+[2021.03.24-18.10.45:154][828]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.24-18.10.45:154][828]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.24-18.10.45:155][828]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.24-18.10.45:155][828]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.24-18.10.45:155][828]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.24-18.10.45:155][828]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.24-18.10.45:175][828]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.24-18.10.45:175][828]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.24-18.10.45:175][828]LogInit: FAudioDevice initialized.
+[2021.03.24-18.10.45:175][828]LogAudio: Display: Audio Device (ID: 12) registered with world 'levelbuilding'.
+[2021.03.24-18.10.45:184][828]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.03.24-18.10.45:192][828]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding up for play (max tick rate 0) at 2021.03.24-14.10.45
+[2021.03.24-18.10.45:193][828]LogWorld: Bringing up level for play took: 0.007603
+[2021.03.24-18.10.45:193][828]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.03.24-18.10.45:195][828]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.24-18.10.45:196][828]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.24-18.10.45:197][828]PIE: Server logged in
+[2021.03.24-18.10.45:197][828]PIE: Play in editor total start time 0.105 seconds.
+[2021.03.24-18.10.54:422][ 59]PIE: Warning: EnemyProjectile_C_0.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.10.54:535][ 62]LogBlueprintUserMessages: [levelbuilding_C_0] Oh Snap! He got out!
+[2021.03.24-18.10.54:576][ 63]PIE: Warning: EnemyProjectile_C_1.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.10.54:734][ 67]PIE: Warning: EnemyProjectile_C_2.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.10.55:930][ 95]PIE: Warning: EnemyProjectile_C_3.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.10.56:151][101]PIE: Warning: EnemyProjectile_C_4.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.10.57:509][135]PIE: Warning: EnemyProjectile_C_5.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.10.57:672][139]PIE: Warning: EnemyProjectile_C_6.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.10.59:172][177]PIE: Warning: EnemyProjectile_C_7.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.11.01:069][221]PIE: Warning: EnemyProjectile_C_8.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.11.05:594][327]PIE: Warning: EnemyProjectile_C_9.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.11.07:113][363]PIE: Warning: EnemyProjectile_C_10.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.11.08:680][399]PIE: Warning: EnemyProjectile_C_11.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.11.12:521][487]PIE: Warning: EnemyProjectile_C_12.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.11.14:472][533]PIE: Warning: EnemyProjectile_C_13.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.11.14:565][535]PIE: Warning: EnemyProjectile_C_14.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.11.16:047][571]PIE: Warning: EnemyProjectile_C_15.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.11.18:589][633]PIE: Warning: EnemyProjectile_C_16.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.24-18.11.52:921][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-18.11.52:921][360]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.24-18.11.52:922][360]LogWorld: UWorld::CleanupWorld for levelbuilding, bSessionEnded=true, bCleanupResources=true
+[2021.03.24-18.11.52:929][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.24-18.11.52:953][360]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.24-18.11.53:010][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.24-18.11.53:026][360]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.24-18.11.53:026][360]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.24-18.11.53:028][360]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.24-18.11.53:083][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.24-18.11.53:098][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.03.24-18.11.53:311][361]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.03.24-18.11.54:762][400]LogSlate: Window 'Message Log' being destroyed
+[2021.03.24-18.11.54:804][400]LogSlate: Window 'Message Log' being destroyed
+[2021.03.24-18.11.55:944][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/levelbuilding" FILE="../../../../PointBlank/Content/FirstPersonBP/Maps/levelbuilding.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.24-18.11.55:953][443]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.03.24-18.11.57:494][443]LogSavePackage: Moving '../../../../PointBlank/Saved/levelbuilding00369C314AAC863C4345DB8192C815B3.tmp' to '../../../../PointBlank/Content/FirstPersonBP/Maps/levelbuilding.umap'
+[2021.03.24-18.11.57:544][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/levelbuilding_BuiltData" FILE="../../../../PointBlank/Content/FirstPersonBP/Maps/levelbuilding_BuiltData.uasset" SILENT=true
+[2021.03.24-18.11.58:007][443]LogSavePackage: Moving '../../../../PointBlank/Saved/levelbuilding_BuiltData5B4664444524091B45DEB8A8D15D030D.tmp' to '../../../../PointBlank/Content/FirstPersonBP/Maps/levelbuilding_BuiltData.uasset'
+[2021.03.24-18.11.58:065][443]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.24-18.11.58:065][443]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/levelbuilding_BuiltData.levelbuilding_BuiltData
+[2021.03.24-18.11.58:065][443]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding
