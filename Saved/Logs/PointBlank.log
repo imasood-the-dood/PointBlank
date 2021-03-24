@@ -1407,3 +1407,24 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.24-07.07.37:578][920]LogRenderer: Reallocating scene render targets to support 796x492 Format 10 NumSamples 1 (Frame:6460).
 [2021.03.24-07.07.50:152][ 26]LogSlate: Window 'Message Log' being destroyed
 [2021.03.24-07.07.50:190][ 26]LogSlate: Window 'Message Log' being destroyed
+[2021.03.24-08.41.30:294][882]LogHttp: Warning: 00000177120D5600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B330BA2F6-494C-4B62-2E3F-94AB10D4D36A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.1-15228867%2B%2B%2BUE4%2BRelease-4.26&UserID=ef07b5284676f16ed3b76fba7152370a%7C57afc994c27b493090f368368e451416%7C8e700668-b024-402d-960e-9d34194d9bef&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.03.24-08.41.30:294][882]LogHttp: Warning: 00000177120D5600: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.03.24-08.41.30:294][882]LogHttp: Warning: 00000177120D5600: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1768808feb0 [can pipeline])
+[2021.03.24-08.41.30:295][882]LogHttp: Warning: 00000177120D5600: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2021.03.24-08.41.30:297][882]LogHttp: Warning: 00000177120D5600: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.224.103.47) port 443 (#0))
+[2021.03.24-08.41.30:297][882]LogHttp: Warning: 00000177120D5600: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.03.24-08.41.30:297][882]LogHttp: Warning: 00000177120D5600: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.03.24-08.41.30:297][882]LogHttp: Warning: 00000177120D5600: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.03.24-08.41.30:298][882]LogHttp: Warning: 00000177120D5600: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.03.24-08.41.30:299][882]LogHttp: Warning: 00000177120D5600: libcurl info message cache 7 (Closing connection 0)
+[2021.03.24-08.41.30:300][882]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B330BA2F6-494C-4B62-2E3F-94AB10D4D36A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.1-15228867%2B%2B%2BUE4%2BRelease-4.26&UserID=ef07b5284676f16ed3b76fba7152370a%7C57afc994c27b493090f368368e451416%7C8e700668-b024-402d-960e-9d34194d9bef&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.03.24-08.41.31:316][884]LogAudioMixer: Resetting audio stream to device id 
+[2021.03.24-08.41.31:382][884]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.24-08.41.31:382][884]LogAudioMixer: Display: 1: FrontRight
+[2021.03.24-17.27.59:654][890]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.03.24-17.27.59:961][890]LogAudioMixer: Resetting audio stream to device id 
+[2021.03.24-17.28.00:363][890]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.24-17.28.00:363][890]LogAudioMixer: Display: 1: FrontRight
+[2021.03.24-17.28.02:675][891]LogAudioMixer: Resetting audio stream to device id 
+[2021.03.24-17.28.02:784][891]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.24-17.28.02:784][891]LogAudioMixer: Display: 1: FrontRight
