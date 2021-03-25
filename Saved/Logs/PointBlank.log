@@ -1929,3 +1929,276 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.25-00.38.16:570][588]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2021.03.25-00.38.16:650][588]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
 [2021.03.25-00.38.16:785][589]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.03.25-00.39.21:798][180]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.25-00.39.21:846][180]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.25-00.39.21:846][180]PIE: New page: PIE session: levelbuilding (Mar 24, 2021, 4:39:21 PM)
+[2021.03.25-00.39.21:846][180]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.25-00.39.21:870][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023419s)
+[2021.03.25-00.39.21:871][180]LogAIModule: Creating AISystem for world levelbuilding
+[2021.03.25-00.39.21:872][180]LogPlayLevel: PIE: World Init took: (0.001915s)
+[2021.03.25-00.39.21:872][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding to /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding (0.025642s)
+[2021.03.25-00.39.21:883][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.03.25-00.39.21:884][180]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.03.25-00.39.21:884][180]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-00.39.21:884][180]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-00.39.21:884][180]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-00.39.21:884][180]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-00.39.21:884][180]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-00.39.21:884][180]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-00.39.21:884][180]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-00.39.21:884][180]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-00.39.21:885][180]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-00.39.21:885][180]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-00.39.21:889][180]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-00.39.21:889][180]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-00.39.21:919][180]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio(SST))
+[2021.03.25-00.39.21:920][180]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-00.39.21:920][180]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-00.39.21:920][180]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-00.39.21:920][180]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-00.39.21:921][180]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.25-00.39.21:921][180]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.25-00.39.21:948][180]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.25-00.39.21:948][180]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.25-00.39.21:948][180]LogInit: FAudioDevice initialized.
+[2021.03.25-00.39.21:948][180]LogAudio: Display: Audio Device (ID: 10) registered with world 'levelbuilding'.
+[2021.03.25-00.39.21:979][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-00.39.21:979][180]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.03.25-00.39.21:999][180]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding up for play (max tick rate 60) at 2021.03.24-20.39.21
+[2021.03.25-00.39.22:000][180]LogWorld: Bringing up level for play took: 0.019503
+[2021.03.25-00.39.22:001][180]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.03.25-00.39.22:006][180]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.25-00.39.22:009][180]PIE: Server logged in
+[2021.03.25-00.39.22:010][180]PIE: Play in editor total start time 0.172 seconds.
+[2021.03.25-00.39.22:210][181]LogRenderer: Reallocating scene render targets to support 812x840 Format 10 NumSamples 1 (Frame:1).
+[2021.03.25-00.39.53:019][687]LogNet: Browse: /Game/FirstPersonBP/Maps/LoseScreen
+[2021.03.25-00.39.53:019][687]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/LoseScreen
+[2021.03.25-00.39.53:019][687]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.25-00.39.53:020][687]LogWorld: UWorld::CleanupWorld for levelbuilding, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-00.39.53:024][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-00.39.53:078][687]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.25-00.39.53:092][687]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.03.25-00.39.53:143][687]LogAudio: Display: Audio Device (ID: 10) registered with world 'LoseScreen'.
+[2021.03.25-00.39.53:146][687]LogAIModule: Creating AISystem for world LoseScreen
+[2021.03.25-00.39.53:146][687]LogLoad: Game class is 'GameMode'
+[2021.03.25-00.39.53:149][687]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LoseScreen.LoseScreen up for play (max tick rate 60) at 2021.03.24-20.39.53
+[2021.03.25-00.39.53:150][687]LogWorld: Bringing up level for play took: 0.001107
+[2021.03.25-00.39.53:151][687]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.25-00.39.53:151][687]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.03.25-00.39.53:151][687]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.03.25-00.39.53:152][687]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.03.25-00.39.53:154][687]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.03.25-00.39.53:154][687]LogLoad: Took 0.134818 seconds to LoadMap(/Game/FirstPersonBP/Maps/LoseScreen)
+[2021.03.25-00.39.55:191][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-00.39.55:192][726]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_LoseScreen
+[2021.03.25-00.39.55:192][726]LogSlate: Window 'PointBlank Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.03.25-00.39.55:268][726]LogWorld: UWorld::CleanupWorld for LoseScreen, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-00.39.55:269][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-00.39.55:288][726]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-00.39.55:345][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-00.39.55:359][726]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.25-00.39.55:359][726]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.25-00.39.55:361][726]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.25-00.39.55:418][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.03.25-00.39.55:496][727]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.03.25-00.39.56:315][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x416)
+[2021.03.25-00.42.40:470][748]Cmd: EDIT COPY
+[2021.03.25-00.42.40:812][755]Cmd: EDIT PASTE
+[2021.03.25-00.42.50:389][974]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding:PersistentLevel.levelbuilding
+[2021.03.25-00.42.51:339][974]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0115 seconds. Added 126 classes and 0 folders.
+[2021.03.25-00.42.53:552][974]LogSlate: Took 0.004644 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.03.25-00.42.53:696][975]LogSlate: Took 0.005125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.03.25-00.43.01:925][107]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2021.03.25-00.43.01:926][107]LogBlueprint: Warning: [AssetLog]  (no disk path found): [Compiler] Pasted node  CustomEvent   conflicted with  OnActorBeginOverlap (TriggerBox)  and was replaced as a Custom Event!
+[2021.03.25-00.43.57:746][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/levelbuilding" FILE="../../../../PointBlank/Content/FirstPersonBP/Maps/levelbuilding.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.25-00.43.57:865][996]LogUObjectHash: Compacting FUObjectHashTables data took  14.69ms
+[2021.03.25-00.44.00:028][996]LogSavePackage: Moving '../../../../PointBlank/Saved/levelbuilding61AC53AE4DB393015C60B3A876B54E0F.tmp' to '../../../../PointBlank/Content/FirstPersonBP/Maps/levelbuilding.umap'
+[2021.03.25-00.44.00:063][996]LogFileHelpers: Saving map 'levelbuilding' took 2.319
+[2021.03.25-00.44.00:100][996]AssetCheck: New page: Asset Save: levelbuilding
+[2021.03.25-00.44.00:100][996]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding
+[2021.03.25-00.44.00:560][  6]LogSlate: Window 'levelbuilding' being destroyed
+[2021.03.25-00.44.00:628][  6]LogSlate: Window 'levelbuilding' being destroyed
+[2021.03.25-00.44.00:650][  6]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-00.44.00:650][  6]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-00.44.04:745][ 83]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.25-00.44.04:782][ 83]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.03.25-00.44.04:784][ 83]LogPlayLevel: [PlayLevel] Compiling levelbuilding before play...
+[2021.03.25-00.44.04:890][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   6.94ms
+[2021.03.25-00.44.04:895][ 83]LogPlayLevel: PlayLevel: Blueprint regeneration took 113 ms (1 blueprints)
+[2021.03.25-00.44.04:896][ 83]PIE: New page: PIE session: levelbuilding (Mar 24, 2021, 4:44:04 PM)
+[2021.03.25-00.44.04:896][ 83]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.25-00.44.04:929][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032460s)
+[2021.03.25-00.44.04:931][ 83]LogAIModule: Creating AISystem for world levelbuilding
+[2021.03.25-00.44.04:932][ 83]LogPlayLevel: PIE: World Init took: (0.002692s)
+[2021.03.25-00.44.04:932][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding to /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding (0.035478s)
+[2021.03.25-00.44.04:975][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   7.52ms
+[2021.03.25-00.44.04:976][ 83]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2021.03.25-00.44.04:976][ 83]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-00.44.04:977][ 83]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-00.44.04:977][ 83]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-00.44.04:977][ 83]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-00.44.04:977][ 83]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-00.44.04:977][ 83]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-00.44.04:977][ 83]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-00.44.04:977][ 83]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-00.44.04:978][ 83]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-00.44.04:978][ 83]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-00.44.04:985][ 83]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-00.44.04:985][ 83]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-00.44.05:031][ 83]LogAudioMixer: Display: Using Audio Device Headphones (Realtek High Definition Audio(SST))
+[2021.03.25-00.44.05:032][ 83]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-00.44.05:032][ 83]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-00.44.05:032][ 83]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-00.44.05:033][ 83]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-00.44.05:033][ 83]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.25-00.44.05:033][ 83]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.25-00.44.05:073][ 83]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.25-00.44.05:073][ 83]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.25-00.44.05:073][ 83]LogInit: FAudioDevice initialized.
+[2021.03.25-00.44.05:073][ 83]LogAudio: Display: Audio Device (ID: 11) registered with world 'levelbuilding'.
+[2021.03.25-00.44.05:125][ 83]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-00.44.05:125][ 83]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.03.25-00.44.05:154][ 83]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding up for play (max tick rate 60) at 2021.03.24-20.44.05
+[2021.03.25-00.44.05:156][ 83]LogWorld: Bringing up level for play took: 0.028226
+[2021.03.25-00.44.05:157][ 83]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.03.25-00.44.05:162][ 83]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.25-00.44.05:166][ 83]PIE: Server logged in
+[2021.03.25-00.44.05:169][ 83]PIE: Play in editor total start time 0.396 seconds.
+[2021.03.25-00.44.05:490][ 85]LogRenderer: Reallocating scene render targets to support 816x840 Format 10 NumSamples 1 (Frame:1).
+[2021.03.25-00.44.20:306][269]PIE: Warning: EnemyProjectile_C_0.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.21:132][281]PIE: Warning: EnemyProjectile_C_1.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.21:205][282]LogBlueprintUserMessages: [levelbuilding_C_0] Here's where level 2 starts
+[2021.03.25-00.44.21:807][291]PIE: Warning: EnemyProjectile_C_2.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.22:774][304]PIE: Warning: EnemyProjectile_C_3.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.23:373][312]PIE: Warning: EnemyProjectile_C_4.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.24:322][324]PIE: Warning: EnemyProjectile_C_5.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.25:852][345]PIE: Warning: EnemyProjectile_C_6.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.26:902][360]PIE: Warning: EnemyProjectile_C_7.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.27:363][367]PIE: Warning: EnemyProjectile_C_8.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.27:560][370]LogBlueprintUserMessages: [levelbuilding_C_0] Here's where level 2 starts
+[2021.03.25-00.44.28:442][383]PIE: Warning: EnemyProjectile_C_9.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.28:914][390]PIE: Warning: EnemyProjectile_C_10.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.29:946][405]LogBlueprintUserMessages: [levelbuilding_C_0] Here's where level 2 starts
+[2021.03.25-00.44.29:952][405]PIE: Warning: EnemyProjectile_C_11.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.30:469][412]PIE: Warning: EnemyProjectile_C_12.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.31:494][427]PIE: Warning: EnemyProjectile_C_13.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.32:034][435]PIE: Warning: EnemyProjectile_C_14.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.33:037][450]PIE: Warning: EnemyProjectile_C_15.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.33:602][458]PIE: Warning: EnemyProjectile_C_16.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.34:606][472]PIE: Warning: EnemyProjectile_C_17.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.35:170][480]PIE: Warning: EnemyProjectile_C_18.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.36:124][493]PIE: Warning: EnemyProjectile_C_19.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.36:675][500]PIE: Warning: EnemyProjectile_C_20.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.37:677][513]PIE: Warning: EnemyProjectile_C_21.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.38:213][520]PIE: Warning: EnemyProjectile_C_22.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.39:202][533]PIE: Warning: EnemyProjectile_C_23.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-00.44.50:096][682]LogBlueprintUserMessages: [levelbuilding_C_0] Here's where level 2 starts
+[2021.03.25-00.45.24:918][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-00.45.24:919][137]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.25-00.45.24:920][137]LogSlate: Window 'PointBlank Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2021.03.25-00.45.25:041][137]LogWorld: UWorld::CleanupWorld for levelbuilding, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-00.45.25:054][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-00.45.25:086][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-00.45.25:196][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-00.45.25:257][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.25-00.45.25:259][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.25-00.45.25:335][137]LogUObjectHash: Compacting FUObjectHashTables data took   7.74ms
+[2021.03.25-00.45.25:858][138]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.03.25-00.45.27:435][161]LogSlate: Window 'Message Log' being destroyed
+[2021.03.25-00.45.27:536][161]LogSlate: Window 'Message Log' being destroyed
+[2021.03.25-00.45.42:826][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/levelbuilding" FILE="../../../../PointBlank/Content/FirstPersonBP/Maps/levelbuilding.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.03.25-00.45.42:878][424]LogUObjectHash: Compacting FUObjectHashTables data took   5.99ms
+[2021.03.25-00.45.45:180][424]LogSavePackage: Moving '../../../../PointBlank/Saved/levelbuilding821BBEC5452F3492787DE1B81ED0EA50.tmp' to '../../../../PointBlank/Content/FirstPersonBP/Maps/levelbuilding.umap'
+[2021.03.25-00.45.45:231][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/levelbuilding_BuiltData" FILE="../../../../PointBlank/Content/FirstPersonBP/Maps/levelbuilding_BuiltData.uasset" SILENT=true
+[2021.03.25-00.45.45:900][424]LogSavePackage: Moving '../../../../PointBlank/Saved/levelbuilding_BuiltDataADB332E4400C07FE2B6B7B9E994C7C24.tmp' to '../../../../PointBlank/Content/FirstPersonBP/Maps/levelbuilding_BuiltData.uasset'
+[2021.03.25-00.45.45:970][424]AssetCheck: New page: Asset Save: multiple assets
+[2021.03.25-00.45.45:970][424]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/levelbuilding_BuiltData.levelbuilding_BuiltData
+[2021.03.25-00.45.45:970][424]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding
+[2021.03.25-00.45.58:961][510]MapCheck: New page: Map Check
+[2021.03.25-00.45.59:003][510]Cmd: MAP REBUILD ALLVISIBLE
+[2021.03.25-00.45.59:003][510]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.03.25-00.45.59:005][510]LogWorld: UWorld::CleanupWorld for levelbuilding, bSessionEnded=true, bCleanupResources=false
+[2021.03.25-00.45.59:053][510]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.03.25-00.45.59:053][510]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.03.25-00.45.59:053][510]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.03.25-00.45.59:054][510]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2021.03.25-00.45.59:072][510]LogNavigationDataBuild: Display: UNavigationSystemV1::Build total execution time: 0.02s
+[2021.03.25-00.45.59:099][510]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.03.25-00.45.59:101][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:103][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:104][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:107][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:109][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:116][510]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.03.25-00.45.59:116][510]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2021.03.25-00.45.59:116][510]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.03.25-00.45.59:116][510]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.03.25-00.45.59:116][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:121][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:125][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:127][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:130][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:132][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:134][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:136][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:138][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:140][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:142][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:144][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:148][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.45.59:152][510]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.03.25-00.46.07:894][510]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 34
+[2021.03.25-00.46.07:894][510]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 33
+[2021.03.25-00.46.07:894][510]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
+[2021.03.25-00.46.07:894][510]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
+[2021.03.25-00.46.07:894][510]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 30
+[2021.03.25-00.46.07:894][510]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2021.03.25-00.46.07:894][510]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 28
+[2021.03.25-00.46.07:894][510]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 27
+[2021.03.25-00.46.07:894][510]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 26
+[2021.03.25-00.46.07:894][510]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 25
+[2021.03.25-00.46.07:894][510]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2021.03.25-00.46.07:894][510]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 23
+[2021.03.25-00.46.07:894][510]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 22
+[2021.03.25-00.46.07:895][510]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 21
+[2021.03.25-00.46.07:895][510]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2021.03.25-00.46.07:895][510]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 19
+[2021.03.25-00.46.07:895][510]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2021.03.25-00.46.07:895][510]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+[2021.03.25-00.46.07:895][510]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
+[2021.03.25-00.46.07:895][510]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2021.03.25-00.46.07:895][510]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2021.03.25-00.46.07:895][510]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2021.03.25-00.46.07:895][510]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2021.03.25-00.46.07:895][510]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.03.25-00.46.07:895][510]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.03.25-00.46.07:895][510]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.03.25-00.46.07:895][510]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.03.25-00.46.07:896][510]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2021.03.25-00.46.07:896][510]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.03.25-00.46.07:896][510]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.03.25-00.46.07:896][510]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.03.25-00.46.07:896][510]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2021.03.25-00.46.07:896][510]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.03.25-00.46.07:896][510]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.03.25-00.46.07:896][510]TextureStreamingBuild: Display: Compiling optional shaders took 8.793 seconds.
+[2021.03.25-00.46.08:026][510]LogLevel: Display: Export Material TexCoord Scales took 0.130 seconds.
+[2021.03.25-00.46.08:036][510]TextureStreamingBuild: Display: Build Texture Streaming took 0.009 seconds.
+[2021.03.25-00.46.08:077][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2021.03.25-00.46.08:082][510]LightingResults: New page: Lighting Build - Mar 24, 2021, 4:46:08 PM
+[2021.03.25-00.46.08:110][510]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.03.25-00.46.08:115][510]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.03.25-00.46.08:115][510]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.03.25-00.46.08:119][510]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.03.25-00.46.08:120][510]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6152
+[2021.03.25-00.46.12:735][510]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.03.25-00.46.12:736][510]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.03.25-00.46.12:736][510]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.03.25-00.46.12:736][510]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.03.25-00.46.12:736][510]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.03.25-00.46.12:736][510]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.03.25-00.46.13:029][510]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.03.25-00.46.13:030][510]MapCheck: New page: levelbuilding - Mar 24, 2021, 4:46:13 PM
+[2021.03.25-00.46.13:032][510]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.906ms to complete.
+[2021.03.25-00.46.13:035][510]LogEditorBuildUtils: Build time 0:14
+[2021.03.25-00.46.13:235][511]LogUObjectHash: Compacting FUObjectHashTables data took   7.75ms
