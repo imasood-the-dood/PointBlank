@@ -1231,3 +1231,144 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.25-03.16.29:863][ 40]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2021.03.25-03.16.29:863][ 40]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
 [2021.03.25-03.16.29:863][ 40]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-03.16.51:642][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x421)
+[2021.03.25-03.16.54:154][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x421)
+[2021.03.25-03.16.54:770][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x421)
+[2021.03.25-03.16.59:064][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x421)
+[2021.03.25-03.16.59:540][350]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox4)
+[2021.03.25-03.17.10:606][274]LogSlate: Window 'Create Blueprint From Selection' being destroyed
+[2021.03.25-03.18.04:132][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x421)
+[2021.03.25-03.18.15:346][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x421)
+[2021.03.25-03.18.15:966][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x421)
+[2021.03.25-03.18.16:450][916]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox4)
+[2021.03.25-03.18.51:296][ 36]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox4)
+[2021.03.25-03.18.58:383][854]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox4)
+[2021.03.25-03.20.15:054][650]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding:PersistentLevel.levelbuilding
+[2021.03.25-03.24.09:219][774]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.25-03.24.09:234][774]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.03.25-03.24.09:235][774]LogPlayLevel: [PlayLevel] Compiling levelbuilding before play...
+[2021.03.25-03.24.09:301][774]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.03.25-03.24.09:304][774]LogPlayLevel: PlayLevel: Blueprint regeneration took 70 ms (1 blueprints)
+[2021.03.25-03.24.09:304][774]PIE: New page: PIE session: levelbuilding (Mar 24, 2021, 7:24:09 PM)
+[2021.03.25-03.24.09:304][774]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.25-03.24.09:321][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016761s)
+[2021.03.25-03.24.09:322][774]LogAIModule: Creating AISystem for world levelbuilding
+[2021.03.25-03.24.09:323][774]LogPlayLevel: PIE: World Init took: (0.001508s)
+[2021.03.25-03.24.09:323][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding to /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding (0.018443s)
+[2021.03.25-03.24.09:348][774]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.03.25-03.24.09:348][774]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.03.25-03.24.09:348][774]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.25-03.24.09:348][774]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.25-03.24.09:348][774]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.25-03.24.09:348][774]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.25-03.24.09:348][774]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.25-03.24.09:348][774]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.25-03.24.09:348][774]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.25-03.24.09:348][774]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.25-03.24.09:348][774]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.25-03.24.09:348][774]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.25-03.24.09:355][774]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.25-03.24.09:355][774]LogAudioMixer: Display: 1: FrontRight
+[2021.03.25-03.24.09:415][774]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output (Realtek High Definition Audio)
+[2021.03.25-03.24.09:416][774]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.25-03.24.09:416][774]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.25-03.24.09:416][774]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.25-03.24.09:416][774]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.25-03.24.09:417][774]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.03.25-03.24.09:417][774]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.03.25-03.24.09:433][774]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.03.25-03.24.09:433][774]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.03.25-03.24.09:433][774]LogInit: FAudioDevice initialized.
+[2021.03.25-03.24.09:433][774]LogAudio: Display: Audio Device (ID: 6) registered with world 'levelbuilding'.
+[2021.03.25-03.24.09:443][774]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.03.25-03.24.09:454][774]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding up for play (max tick rate 0) at 2021.03.24-23.24.09
+[2021.03.25-03.24.09:455][774]LogWorld: Bringing up level for play took: 0.010864
+[2021.03.25-03.24.09:455][774]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.03.25-03.24.09:459][774]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2021.03.25-03.24.09:459][774]PIE: Server logged in
+[2021.03.25-03.24.09:460][774]PIE: Play in editor total start time 0.227 seconds.
+[2021.03.25-03.24.16:316][452]PIE: Warning: EnemyProjectile_C_0.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-03.24.16:478][467]PIE: Warning: EnemyProjectile_C_1.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-03.24.16:590][477]PIE: Warning: EnemyProjectile_C_2.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-03.24.17:993][610]PIE: Warning: EnemyProjectile_C_3.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-03.24.18:096][620]PIE: Warning: EnemyProjectile_C_4.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-03.24.19:500][756]PIE: Warning: EnemyProjectile_C_5.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-03.24.19:605][766]PIE: Warning: EnemyProjectile_C_6.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-03.24.29:917][769]PIE: Warning: EnemyProjectile_C_7.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-03.24.30:651][834]PIE: Warning: EnemyProjectile_C_8.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-03.24.30:822][850]PIE: Warning: EnemyProjectile_C_9.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-03.24.31:161][881]PIE: Warning: EnemyProjectile_C_10.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-03.24.31:425][906]PIE: Warning: EnemyProjectile_C_11.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-03.24.32:179][979]PIE: Warning: EnemyProjectile_C_12.Sphere Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2021.03.25-03.24.32:241][985]LogNet: Browse: /Game/FirstPersonBP/Maps/WinScreen
+[2021.03.25-03.24.32:241][985]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/WinScreen
+[2021.03.25-03.24.32:241][985]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.25-03.24.32:242][985]LogWorld: UWorld::CleanupWorld for levelbuilding, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-03.24.32:243][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-03.24.32:301][985]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.25-03.24.32:304][985]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.03.25-03.24.32:324][985]LogAudio: Display: Audio Device (ID: 6) registered with world 'WinScreen'.
+[2021.03.25-03.24.32:325][985]LogAIModule: Creating AISystem for world WinScreen
+[2021.03.25-03.24.32:325][985]LogLoad: Game class is 'GameMode'
+[2021.03.25-03.24.32:326][985]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_WinScreen.WinScreen up for play (max tick rate 0) at 2021.03.24-23.24.32
+[2021.03.25-03.24.32:326][985]LogWorld: Bringing up level for play took: 0.000470
+[2021.03.25-03.24.32:327][985]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.25-03.24.32:327][985]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.03.25-03.24.32:327][985]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.03.25-03.24.32:327][985]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.03.25-03.24.32:328][985]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.03.25-03.24.32:328][985]LogLoad: Took 0.086829 seconds to LoadMap(/Game/FirstPersonBP/Maps/WinScreen)
+[2021.03.25-03.24.37:140][528]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.03.25-03.24.37:140][528]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.03.25-03.24.37:140][528]LogNet: Browse: /Game/FirstPersonBP/Maps/levelbuilding
+[2021.03.25-03.24.37:140][528]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/levelbuilding
+[2021.03.25-03.24.37:140][528]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_WinScreen
+[2021.03.25-03.24.37:141][528]LogWorld: UWorld::CleanupWorld for WinScreen, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-03.24.37:141][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-03.24.37:188][528]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.03.25-03.24.37:191][528]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.03.25-03.24.37:194][528]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.25-03.24.37:210][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015815s)
+[2021.03.25-03.24.37:211][528]LogAIModule: Creating AISystem for world levelbuilding
+[2021.03.25-03.24.37:211][528]LogPlayLevel: PIE: World Init took: (0.001237s)
+[2021.03.25-03.24.37:211][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding to /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding (0.017248s)
+[2021.03.25-03.24.37:211][528]LogAudio: Display: Audio Device (ID: 6) registered with world 'levelbuilding'.
+[2021.03.25-03.24.37:211][528]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.03.25-03.24.37:218][528]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding.levelbuilding up for play (max tick rate 0) at 2021.03.24-23.24.37
+[2021.03.25-03.24.37:219][528]LogWorld: Bringing up level for play took: 0.007777
+[2021.03.25-03.24.37:220][528]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.03.25-03.24.37:222][528]LogLoad: Took 0.081393 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding)
+[2021.03.25-03.24.39:128][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-03.24.39:128][707]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_levelbuilding
+[2021.03.25-03.24.39:128][707]LogWorld: UWorld::CleanupWorld for levelbuilding, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-03.24.39:130][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-03.24.39:141][707]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.25-03.24.39:160][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-03.24.39:183][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.25-03.24.39:184][707]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.25-03.24.39:185][707]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.03.25-03.24.39:209][707]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.03.25-03.24.39:312][708]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.03.25-03.24.40:791][814]LogSlate: Window 'Message Log' being destroyed
+[2021.03.25-03.24.40:801][814]LogSlate: Window 'Message Log' being destroyed
+[2021.03.25-03.24.51:040][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.03.25-03.24.51:079][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.03.25-03.24.51:160][570]LogSavePackage: Moving '../../../../../../Users/imaso/Documents/Unreal Projects/PointBlank/Saved/levelbuildingE5F8799B4D91B8F4DE697A8E8371DF57.tmp' to '../../../../../../Users/imaso/Documents/Unreal Projects/PointBlank/Content/FirstPersonBP/Maps/levelbuilding.umap'
+[2021.03.25-03.24.51:182][570]LogFileHelpers: Saving map 'levelbuilding' took 0.126
+[2021.03.25-03.25.07:673][570]LogMainFrame: Project does not require temp target
+[2021.03.25-03.25.07:742][570]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UE4Game.target
+[2021.03.25-03.25.07:944][570]AssetCheck: New page: Asset Save: levelbuilding
+[2021.03.25-03.25.07:945][570]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/levelbuilding.levelbuilding
+[2021.03.25-03.25.08:301][570]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
+[2021.03.25-03.25.08:743][608]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject="C:/Users/imaso/Documents/Unreal Projects/PointBlank/PointBlank.uproject" BuildCookRun -nocompileeditor -installed -nop4 -project="C:/Users/imaso/Documents/Unreal Projects/PointBlank/PointBlank.uproject" -cook -stage -archive -archivedirectory="C:/Users/imaso/Documents/Unreal Projects/Built Projects/Beta" -package -ue4exe="C:\Program Files\Epic Games\UE_4.26\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -ddc=InstalledDerivedDataBackendGraph -pak -prereqs -nodebuginfo -targetplatform=Win64 -clientconfig=Development -utf8output
+[2021.03.25-03.25.13:547][ 20]LogSlate: Window 'levelbuilding' being destroyed
+[2021.03.25-03.25.13:552][ 20]LogSlate: Window 'levelbuilding' being destroyed
+[2021.03.25-03.25.13:564][ 20]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.03.25-03.25.13:564][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.25-03.25.13:625][ 21]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for C:\Users\imaso\Documents\Unreal Projects\PointBlank\PointBlank.uproject
+[2021.03.25-03.25.14:595][130]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
+[2021.03.25-03.25.14:611][132]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project C:\Users\imaso\Documents\Unreal Projects\PointBlank\PointBlank.uproject
+[2021.03.25-03.25.14:611][132]UATHelper: Packaging (Windows (64-bit)): Commandlet log file is C:\Program Files\Epic Games\UE_4.26\Engine\Programs\AutomationTool\Saved\Cook-2021.03.24-23.25.14.txt
+[2021.03.25-03.25.14:620][133]UATHelper: Packaging (Windows (64-bit)): Running: C:\Program Files\Epic Games\UE_4.26\Engine\Binaries\Win64\UE4Editor-Cmd.exe "C:\Users\imaso\Documents\Unreal Projects\PointBlank\PointBlank.uproject" -run=Cook  -TargetPlatform=WindowsNoEditor -fileopenlog -ddc=InstalledDerivedDataBackendGraph -unversioned -abslog="C:\Program Files\Epic Games\UE_4.26\Engine\Programs\AutomationTool\Saved\Cook-2021.03.24-23.25.14.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2021.03.25-03.25.19:325][645]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2021.03.25-03.25.21:666][895]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
